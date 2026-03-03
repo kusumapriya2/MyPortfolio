@@ -1,0 +1,330 @@
+.bg1 {
+    background-color: black;
+    margin-top: 15px;
+    color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-item1 {
+    color: ghostwhite;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.grid-nav1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 150px;
+}
+
+.grid-item2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 20px;
+    justify-content: end;
+    column-gap: 40px;
+}
+
+.items5 {
+    margin-right: 100px;
+}
+
+.grid-item2 > div {
+    font-size: 22px;
+}
+
+.grid-item2 > div > a {
+    color: ghostwhite;
+    text-decoration: none;
+    position: relative;
+}
+.grid-item2 > div > a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(237, 37, 101);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.grid-item2 > div > a:hover::after{
+    width: 100%;
+}
+.heading1 {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.head1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.head2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.bg2 {
+    background-color: rgb(57, 56, 56);
+    margin-top: 200px;
+}
+
+.grid-about {
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.grid-item3 > img {
+    width: 400px;
+    height: 450px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.ab1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.ab2 {
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.tab-content {
+    margin-left: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #2d2d2d;
+}
+
+.myservices {
+    margin-top: 200px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.grid-services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.card1, .card2, .card3 {
+    padding: 20px;
+    border-radius: 20px;
+    width: 330px;
+    height: 250px;
+    transition: background-color 0.5s, transform 0.5s;
+    background-color: rgb(173, 234, 132);
+}
+.card2{
+    background-color: rgb(227, 128, 148);
+     padding: 20px;
+    border-radius: 20px;
+    width: 330px;
+    height: 250px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.card3{
+    background-color:rgb(150, 147, 210) ;
+     padding: 20px;
+    border-radius: 20px;
+    width: 330px;
+    height: 250px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.card1 > div, .card2 > div, .card3 > div {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.card1 > p, .card2 > p, .card3 > p {
+    font-size: 16px;
+}
+
+.card1 > a, .card2 > a, .card3 > a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 14px;
+}
+
+.card1:hover {
+    background-color: rgb(104, 243, 12);
+    transform: translateY(-10px);
+}
+
+.card2:hover {
+    background-color: rgb(244, 35, 77);
+    transform: translateY(-10px);
+}
+
+.card3:hover {
+    background-color: rgb(57, 48, 232);
+    transform: translateY(-10px);
+}
+
+.grid-item7 {
+    margin-right: 100px;
+}
+
+.portfolio {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.p1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.port-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.port-grid > div > img {
+    width: 325px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.grid-item10 {
+    margin-right: 400px;
+}
+
+.portfolio > p > a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(237, 37, 101);
+    margin-top: 50px;
+    margin-left: 430px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    
+}
+
+.p2:hover {
+    background-color: rgb(237, 37, 101);
+}
+
+.contact {
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+}
+
+.grid-item11 > div {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(237, 37, 101);
+}
+
+.grid-item11 > p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.grid-item11 > button {
+    color: ghostwhite;
+    background-color: rgb(237, 37, 101);
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.grid-item11 > button > a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.grid-item12 {
+    margin-top: 0px;
+}
+
+.grid-item12 > form > div {
+    margin-top: 30px;
+}
+
+input {
+    background-color: rgb(75, 75, 75);
+    width: 600px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    color: ghostwhite;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+    color: #ccc;
+}
+
+textarea {
+    background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+    color: ghostwhite;
+    width: 600px;
+    height: 150px;
+}
+
+textarea::placeholder {
+    padding-top: -10px;
+    color: #ccc;
+    padding-left: 20px;
+}
+
+.grid-item12 > form > div > button {
+    color: ghostwhite;
+    background-color: rgb(237, 37, 101);
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 200px;
+    margin-bottom: 100px;
+  
+}
+
+.copyrights {
+    background-color: rgb(20, 20, 20);
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    color: ghostwhite;
+}
